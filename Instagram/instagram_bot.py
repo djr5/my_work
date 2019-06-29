@@ -60,28 +60,3 @@ rakend = InstgramBot(IGUSERNAME, IGPASSWORD)
 rakend.login()
 [rakend.picsLike(tag) for tag in HASHTAGS]
 
-
-
-# var elements = document.getElementsByClassName('KL4Bh');
-# for (i of elements) {
-#   i.click();
-#   console.log(i);
-#   var qw = document.getElementsByClassName("glyphsSpriteMore_horizontal__outline__24__grey_9 u-__7")
-#   for (j of qw){
-#     j.click();
-#     var q = document.getElementsByClassName("aOOlW   HoLwm ")
-#     for (k of q){
-#     	if(k.textContent=='Embed'){
-    		
-#     		setTimeout(function(){
-#     			k.click();
-#     		var t = document.getElementsByClassName("_4UXK0");
-    		
-#     				}, 500);
-#     			console.log(t);
-    		
-
-#     	}
-#     }
-#   }
-# }
